@@ -1,0 +1,26 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(../images/bg_point_write.gif);
+}
+-->
+</style></head>
+
+<body>
+<table width="100%" border="0" cellspacing="0">
+  <tr>
+    <td align="center"><img src="../images/ny_img_banner.jpg" width="600"></td>
+  </tr>
+</table>
+</body>
+</html>
